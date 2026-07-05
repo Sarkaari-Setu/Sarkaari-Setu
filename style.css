@@ -397,17 +397,31 @@ h3{
     width:100%;
     max-width:100px;
     height:auto;
-    display:block;
+   opacity: 100%;
+    border-radius: 50%;
 }
 
-#splusaime{
+#splusaime {
     height: 180px;
     width: 100px;
     display: flex;
     flex-wrap: wrap;
     border-radius: 5px;
+    position: fixed;
+    right: 20px;
+    top: 20%;
+    z-index: 1000;
 }
 
+#splusaime img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+#splus button {
+    border-radius: 50%;
+}
 /* Responsive */
 
 @media(max-width:1000px){
