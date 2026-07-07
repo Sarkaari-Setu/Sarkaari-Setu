@@ -410,6 +410,10 @@ h3{
     display: none;
 }
 
+#splusaime:hover {
+    cursor: pointer;
+}
+
 #splus button {
     border-radius: 50%;
 }
