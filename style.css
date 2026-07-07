@@ -407,7 +407,10 @@ h3{
     margin-right: 3rem;
     margin-top: 3rem;
     z-index: 1000;
-    display: none;
+    border-radius: 50%;
+    background-image: url('S+.png');
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 
 #splusaime:hover {
