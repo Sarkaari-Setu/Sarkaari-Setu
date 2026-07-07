@@ -674,8 +674,7 @@ function translateToHindi() {
         if (translations[text]) {
             el.textContent = translations[text];
         }
-document.querySelector(".notification-text").textContent="RE-NEET का रिज़ल्ट घोषित होने वाला है! इसके बाद उम्मीदवार आधिकारिक वेबसाइट पर अपना RE-NEET रिज़ल्ट देख सकते हैं।";
-document.querySelector(".check-btn").textContent="आधिकारिक वेबसाइट देखें।";
+
     });
 document.getElementById("splusaime").style.display="block";
 }
