@@ -424,7 +424,7 @@ h3{
     flex-wrap: wrap;
     position: fixed;
     right: 0;
-    margin-right: 3rem;
+    margin-right: 5rem;
     margin-top: 8rem;
     z-index: 1000;
     border-radius: 50%;
@@ -735,7 +735,7 @@ footer::after{
 }
 
 .check-btn {
-    background: white;
+    background-color: white;
     color: #d60000;
     text-decoration: none;
     padding: 10px 18px;
@@ -747,29 +747,6 @@ footer::after{
 .check-btn:hover {
     background: #ffeaea;
     transform: scale(1.05);
-    
-}
-
-#helping-guide{
-    transform: scale(1.05);
-        background: white;
-    color: #d60000;
-    text-decoration: none;
-    padding: 10px 18px;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-#urgent-ai{
-    transform: scale(1.05);
-        background: white;
-    color: #d60000;
-    text-decoration: none;
-    padding: 10px 18px;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: 0.3s;
 }
 
 @keyframes pulse {
