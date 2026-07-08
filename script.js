@@ -688,3 +688,33 @@ englishBtn.addEventListener("click",()=>{
     document.querySelector("#splusaime").style.display="block";
 })
 
+function searchCards() {
+    let input = document.getElementById("searchInput").value.toLowerCase();
+
+    // Select both .card and .card-new
+    let cards = document.querySelectorAll(".card, .card-new");
+
+    cards.forEach(card => {
+        let title = "";
+        let desc = "";
+        let category = "";
+
+        // Works for h2 or h3
+        let heading = card.querySelector("h2, h3");
+        if (heading) title = heading.textContent.toLowerCase();
+
+        let paragraph = card.querySelector("p");
+        if (paragraph) desc = paragraph.textContent.toLowerCase();
+
+        let cat = card.querySelector(".category");
+        if (cat) category = cat.textContent.toLowerCase();
+
+        let text = title + " " + desc + " " + category;
+
+        if (text.includes(input)) {
+            card.style.display = "";
+        } else {
+            card.style.display = "none";
+        }
+    });
+}
