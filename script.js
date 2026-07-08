@@ -667,6 +667,8 @@ const translations = {
 "Check the official Website":"आधिकारिक वेबसाइट देखें",
 "The helping Guide":"सहायता मार्गदर्शिका",
 "Visit our AI for help":"सहायता के लिए हमारे AI पर जाएँ",
+"Neet Result":"NEET का परिणाम",
+    "Guide to check your results of the NEET examination":"NEET परीक्षा के नतीजे देखने के लिए गाइड",
 };
 
 function translateToHindi() {
