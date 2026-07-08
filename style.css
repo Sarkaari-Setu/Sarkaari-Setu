@@ -558,7 +558,7 @@ h3{
 color: white;
     display:flex;
     flex-direction:column;
-
+width:380px;
     min-height:300px;
 }
 
