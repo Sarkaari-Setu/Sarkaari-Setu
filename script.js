@@ -660,9 +660,13 @@ const translations = {
 "Transport":"परिवहन",
 "Recharge and manage your FASTag account for toll payments.":"टोल भुगतान के लिए अपने फास्टैग खाते को रिचार्ज करें और प्रबंधित करें।",
 
-"Visit Website":"वेबसाइट पर जाएँ"
+"Visit Website":"वेबसाइट पर जाएँ",
 
-
+"🚨 URGENT":"🚨 अत्यावश्यक",
+"RE-NEET Result will be going to get Declared! Candidates can then check their RE-NEET results from the official website.":"RE-NEET का रिज़ल्ट घोषित होने वाला है!इसके बाद उम्मीदवार आधिकारिक वेबसाइट पर अपना RE-NEET रिज़ल्ट देख सकते हैं।",
+"Check the official Website":"आधिकारिक वेबसाइट देखें",
+"The helping Guide":"सहायता मार्गदर्शिका",
+"Visit our AI for help":"सहायता के लिए हमारे AI पर जाएँ",
 };
 
 function translateToHindi() {
