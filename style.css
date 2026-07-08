@@ -8,6 +8,10 @@ body{
     background-color: #111111;
 }
 
+button:hover {
+    coursor: pointer;
+}
+
 #languagePopup{
     position:fixed;
     top:0;
@@ -405,7 +409,7 @@ h3{
     position: fixed;
     right: 0;
     margin-right: 3rem;
-    margin-top: 4rem;
+    margin-top: 8rem;
     z-index: 1000;
     border-radius: 50%;
     background-image: url('S+.png');
