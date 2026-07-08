@@ -718,7 +718,7 @@ footer::after{
     border-radius: 30px;
     font-weight: bold;
     white-space: nowrap;
-    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .notification-text {
