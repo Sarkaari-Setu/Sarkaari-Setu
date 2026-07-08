@@ -15,8 +15,6 @@ const formatSearch = document.querySelector(".search-boxtwo input");
 
 const countText = document.querySelector(".count");
 
-let currentLanguage = "hindi";
-
 if (formatsSection) {
     formatsSection.style.display = "none";
 }
