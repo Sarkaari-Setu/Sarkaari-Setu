@@ -711,6 +711,12 @@ footer::after{
     animation: pulse 1.5s infinite;
 }
 
+.notify-for {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .urgent-tag {
     background: #fff;
     color: #d60000;
@@ -718,10 +724,10 @@ footer::after{
     border-radius: 30px;
     font-weight: bold;
     white-space: nowrap;
-    margin-bottom: 2rem;
 }
 
 .notification-text {
+    margin-top: 2rem
     flex: 1;
     font-size: 16px;
     line-height: 1.5;
