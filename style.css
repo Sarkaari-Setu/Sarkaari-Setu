@@ -441,10 +441,11 @@ h3{
 #splusaime::before {
     content: "";
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
     background-image: url('S+.png');
-    background-size: cover;
+    background-size: contain; 
+    background-repeat: no-repeat;
     background-position: center;
     border-radius: 50%;
 }
