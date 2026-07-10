@@ -293,7 +293,7 @@ h3{
 .card{
     flex: 1 1 350px;
     max-width: 380px;
-    max-height:380px;
+    height:380px;
     box-sizing: border-box;
     background-color: #1E293B ;
     border-radius:14px;
