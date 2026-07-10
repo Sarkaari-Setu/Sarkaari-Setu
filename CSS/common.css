@@ -1,0 +1,21 @@
+body {
+  background-color: #111111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+h1 {
+  color: #555555;
+}
+
+hr {
+  height: 4px;
+}
+
+.guide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
