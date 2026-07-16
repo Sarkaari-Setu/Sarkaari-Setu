@@ -1,109 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Question Papers (2000 - Now)</title>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/papers.css">
-</head>
-    
-<body>
-    <header>
-        <h1>Question Papers (2000 - Now)</h1>
-        <p>Download official previous year papers of India's top entrance and competitive examinations.</p>
-    </header>
-    
-    <div class="search-box">
-        <input type="text" id="search" placeholder="Search Exam...">
-    </div>
-    
-    <h2 class="category-title">Popular Exams</h2>
-    
-    <div class="container" id="papers">
-    
-        <div class="card">
-            <h2>NEET</h2>
-            <div class="exam">Medical Entrance</div>
-            <a href="#" class="btn">View Papers</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Question Papers (2000 - Now)</title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/papers.css">
+    </head>
+        
+    <body>
+        <header>
+            <h1>Question Papers (2000 - Now)</h1>
+            <p>Download official previous year papers of India's top entrance and competitive examinations.</p>
+        </header>
+        
+        <div class="search-box">
+            <input type="text" id="search" placeholder="Search Exam...">
         </div>
         
-        <div class="card">
-            <h2>JEE Mains</h2>
-            <div class="exam">Engineering</div>
-            <a href="#" class="btn">View Papers</a>
-        </div>
+        <h2 class="category-title">Popular Exams</h2>
         
-        <div class="card">
-            <h2>JEE Advanced</h2>
-            <div class="exam">Engineering</div>
-            <a href="#" class="btn">View Papers</a>
-        </div>
+        <div class="container" id="papers">
         
-        <div class="card">
-            <h2>UPSC CSE</h2>
-            <div class="exam">Civil Services</div>
-            <a href="#" class="btn">View Papers</a>
-        </div>
-        
-        <div class="card">
-            <h2>CLAT</h2>
-            <div class="exam">Law</div>
-            <a href="#" class="btn">View Papers</a>
-        </div>
-        
-        <div class="card">
-            <h2>CUET UG</h2>
-            <div class="exam">University Entrance</div>
-            <a href="#" class="btn">View Papers</a>
-        </div>
-        
-        <div class="card">
-            <h2>NDA</h2>
-            <div class="exam">Defence</div>
-            <a href="#" class="btn">View Papers</a>
-        </div>
-        
-        <div class="card">
-            <h2>CDS</h2>
-            <div class="exam">Defence</div>
-            <a href="#" class="btn">View Papers</a>
-        </div>
-    
-    </div>
-    
-    <footer>
-    
-        © 2026 Sarkaari Setu+ • Answer Keys
-    
-    </footer>
-    
-    <script>
-    
-        const search=document.getElementById("search");
-        
-        search.addEventListener("keyup",function(){
-        
-            let filter=search.value.toUpperCase();
+            <div class="card">
+                <h2>NEET</h2>
+                <div class="exam">Medical Entrance</div>
+                <a href="paper-links.html" class="btn">View Papers</a>
+            </div>
             
-            let cards=document.querySelectorAll(".card");
+            <div class="card">
+                <h2>JEE Mains</h2>
+                <div class="exam">Engineering</div>
+                <a href="paper-links.html" class="btn">View Papers</a>
+            </div>
             
-            cards.forEach(card=>{
+            <div class="card">
+                <h2>JEE Advanced</h2>
+                <div class="exam">Engineering</div>
+                <a href="paper-links.html" class="btn">View Papers</a>
+            </div>
             
-                let title=card.querySelector("h2").innerText.toUpperCase();
+            <div class="card">
+                <h2>UPSC CSE</h2>
+                <div class="exam">Civil Services</div>
+                <a href="paper-links.html" class="btn">View Papers</a>
+            </div>
+            
+            <div class="card">
+                <h2>CLAT</h2>
+                <div class="exam">Law</div>
+                <a href="paper-links.html" class="btn">View Papers</a>
+            </div>
+            
+            <div class="card">
+                <h2>CUET UG</h2>
+                <div class="exam">University Entrance</div>
+                <a href="paper-links.html" class="btn">View Papers</a>
+            </div>
+            
+            <div class="card">
+                <h2>NDA</h2>
+                <div class="exam">Defence</div>
+                <a href="paper-links.html" class="btn">View Papers</a>
+            </div>
+            
+            <div class="card">
+                <h2>CDS</h2>
+                <div class="exam">Defence</div>
+                <a href="paper-links.html" class="btn">View Papers</a>
+            </div>
+        
+        </div>
+        
+        <footer>
+        
+            © 2026 Sarkaari Setu+ • Answer Keys
+        
+        </footer>
+        
+        <script>
+        
+            const search=document.getElementById("search");
+            
+            search.addEventListener("keyup",function(){
+            
+                let filter=search.value.toUpperCase();
                 
-                if(title.indexOf(filter)>-1){
-                    card.style.display="flex";
-                }
-                else{
-                    card.style.display="none";
-                }
-        
+                let cards=document.querySelectorAll(".card");
+                
+                cards.forEach(card=>{
+                
+                    let title=card.querySelector("h2").innerText.toUpperCase();
+                    
+                    if(title.indexOf(filter)>-1){
+                        card.style.display="flex";
+                    }
+                    else{
+                        card.style.display="none";
+                    }
+            
+                });
+            
             });
         
-        });
-    
-    </script>
-</body>
+        </script>
+    </body>
 </html>
