@@ -1,133 +1,135 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-body{
-    background:#0B1120;
-    color:white;
+body {
+    background: #111111;
+    color: white;
 }
 
-header{
-    padding:40px 20px;
-    text-align:center;
-    background:#111827;
-    border-bottom:1px solid #1f2937;
+header {
+    padding: 40px 20px;
+    text-align: center;
+    background: #0F172A;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-header h1{
-    font-size:38px;
-    margin-bottom:10px;
+header h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+    color: white;
 }
 
-header p{
-    color:#9ca3af;
+header p {
+    color: #64748b;
 }
 
-.search-box{
-    max-width:650px;
-    margin:30px auto;
-    padding:0 20px;
+.search-box {
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 0 20px;
 }
 
-.search-box input{
-    width:100%;
-    padding:16px;
-    border:none;
-    outline:none;
-    background:#1E293B;
-    color:white;
-    font-size:16px;
-    border-radius:12px;
+.search-box input {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #ddd;
+    outline: none;
+    background: white;
+    color: #333;
+    font-size: 16px;
+    border-radius: 12px;
 }
 
-.category-title{
-    font-size:28px;
-    margin:40px 40px 20px;
-    font-weight:600;
+.category-title {
+    font-size: 28px;
+    margin: 40px 40px 20px;
+    font-weight: 600;
+    color: white;
 }
 
-.container{
-    width:95%;
-    max-width:1400px;
-    margin:auto;
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-    gap:22px;
-    padding-bottom:50px;
+.container {
+    width: 95%;
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 22px;
+    padding-bottom: 50px;
 }
 
-.card{
-    background:#111827;
-    border:1px solid #1f2937;
-    border-radius:15px;
-    padding:22px;
-    transition:.3s;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
+.card {
+    background: #1E293B;
+    border: none;
+    border-radius: 15px;
+    padding: 22px;
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
 }
 
-.card:hover{
-    transform:translateY(-6px);
-    border-color:#2563EB;
-    box-shadow:0 10px 30px rgba(37,99,235,.25);
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
-.card h2{
-    font-size:22px;
-    margin-bottom:8px;
+.card h2 {
+    font-size: 22px;
+    margin-bottom: 8px;
+    color: white;
 }
 
-.exam{
-    color:#3B82F6;
-    font-weight:600;
-    margin-bottom:10px;
+.exam {
+    color: #4f46e5;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 
-.card p{
-    color:#9CA3AF;
-    font-size:15px;
-    margin-bottom:20px;
-    line-height:1.5;
+.card p {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 1.5;
 }
 
-.btn{
-    display:block;
-    text-align:center;
-    padding:12px;
-    background:#2563EB;
-    color:white;
-    text-decoration:none;
-    border-radius:10px;
-    transition:.3s;
-    font-weight:500;
+.btn {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    background: #4f46e5;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: .3s;
+    font-weight: 500;
 }
 
-.btn:hover{
-    background:#1D4ED8;
+.btn:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(79,70,229,.35);
 }
 
-footer{
-    margin-top:50px;
-    padding:25px;
-    text-align:center;
-    background:#111827;
-    color:#9ca3af;
-    border-top:1px solid #1f2937;
+footer {
+    margin-top: 50px;
+    padding: 25px;
+    text-align: center;
+    background: linear-gradient(135deg, #0F172A, #1E293B);
+    color: #CBD5E1;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 @media(max-width:700px){
-
-    header h1{
-        font-size:28px;
+    header h1 {
+        font-size: 28px;
     }
     
-    .category-title{
-        margin-left:20px;
-        font-size:24px;
+    .category-title {
+        margin-left: 20px;
+        font-size: 24px;
     }
-
 }
