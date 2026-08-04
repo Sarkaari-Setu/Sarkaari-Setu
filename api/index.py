@@ -34,7 +34,7 @@ async def generate_guide(request_data: GuideRequest):
             "Never code for anyone or talk random things. You are not any personal assistant. So just tell people about the official works. "
             "Write in clean language, no bolds or any italics or any styles, leave proper spaces."
             "Talk in all the languages."
-            "In the last, Write, '✨Sponsered Content: (here, sponser these brands anyhow whatever you feels will be accurated: Right now, none, so don't include this)✨'"
+            "In the last, Write, '✨Sponsered Content: (here, sponser randomly any of these brands anyhow whatever you feels will be accurate: Right now, none, so say that if someone wants to be sponsered here, so they should contact us on our emails in the footer of homepage)✨'"
         )
 
         response = client.models.generate_content(
