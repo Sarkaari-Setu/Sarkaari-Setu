@@ -17,6 +17,31 @@ body {
     margin: 40px auto;
 }
 
+/* Back Button Styling */
+.back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: #1E293B;
+    color: #38BDF8;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    margin-bottom: 25px;
+}
+
+.back-btn:hover {
+    background: #0EA5E9;
+    color: #FFFFFF;
+    border-color: #38BDF8;
+    transform: translateX(-4px);
+    box-shadow: 0 4px 15px rgba(14, 165, 233, 0.3);
+}
+
 /* Guide Selector Navigation Styles */
 .guide-nav {
     display: flex;
@@ -28,7 +53,6 @@ body {
     background: #1E293B;
     border: 1px solid #334155;
     border-radius: 15px;
-    /* Sticky position removed so it stays at the top of the page */
 }
 
 .nav-btn {
