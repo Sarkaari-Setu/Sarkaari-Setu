@@ -28,10 +28,7 @@ body {
     background: #1E293B;
     border: 1px solid #334155;
     border-radius: 15px;
-    position: sticky;
-    top: 15px;
-    z-index: 100;
-    backdrop-filter: blur(8px);
+    /* Sticky position removed so it stays at the top of the page */
 }
 
 .nav-btn {
