@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>NEET UG Candidate Reference Guides</title>
-        
-        <link rel="stylesheet" href="../CSS/guide.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEET UG Candidate Reference Guides</title>
 
-        <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "fd80a3d0bccc43d5b23b1b5f26628a70"}'></script><!-- End Cloudflare Web Analytics -->
-    </head>
-    
-    <body>
-        <div class="container">
+    <link rel="stylesheet" href="../CSS/guide.css">
+    <script src="../JS/guide.js" defer></script>
+
+    <!-- Cloudflare Web Analytics -->
+    <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "fd80a3d0bccc43d5b23b1b5f26628a70"}'></script>
+    <!-- End Cloudflare Web Analytics -->
+</head>
+<body>
+    <div class="container">
+        <!-- Back Button -->
+        <a href="../index.html" class="back-btn">← Back to Home</a>
+
+        <!-- Guide Selector Navigation -->
+        <nav class="guide-nav" aria-label="Guide Categories">
+            <button class="nav-btn active" data-target="guide-application">🌐 Application Guide</button>
+            <button class="nav-btn" data-target="guide-admit-card">📇 Admit Card</button>
+            <button class="nav-btn" data-target="guide-answer-key">📑 Answer Key</button>
+            <button class="nav-btn" data-target="guide-challenge">⚖️ Key Challenge</button>
+            <button class="nav-btn" data-target="guide-results">🏆 Results & Rank</button>
+        </nav>
+
+        <!-- Guide 1: Application Registration -->
+        <section id="guide-application" class="guide-section active">
             <h1>🌐 NEET UG Application Registration Guide</h1>
             <p class="subtitle">Quick process to set up your profile on the NTA portal and submit your form.</p>
 
@@ -33,7 +49,7 @@
             <div class="card">
                 <h2>Step 1 — New Registration</h2>
                 <p>Click the portal link below and click <strong>"NEET UG New Registration"</strong>.</p>
-                <a href="https://neet.nta.nic.in/" target="_blank" class="btn">Go to NTA NEET Application Portal →</a>
+                <a href="https://neet.nta.nic.in/" target="_blank" rel="noopener" class="btn">Go to NTA NEET Application Portal →</a>
             </div>
 
             <div class="card">
@@ -60,9 +76,10 @@
                 <h2>Step 6 — Fee Payment</h2>
                 <p>Pay the application fee online using UPI, Card, or Net Banking, then download your Confirmation Page.</p>
             </div>
-        
-            <hr>
-        
+        </section>
+
+        <!-- Guide 2: Admit Card Download -->
+        <section id="guide-admit-card" class="guide-section">
             <h1>📇 NEET Admit Card Download Guide</h1>
             <p class="subtitle">How to get your mandatory exam hall ticket and proforma sheet.</p>
 
@@ -80,7 +97,7 @@
             <div class="card">
                 <h2>Step 1 — Access the Portal</h2>
                 <p>Click the login link below to go to the NTA download page.</p>
-                <a href="https://examinationservices.nic.in/AdmitCardService/AcNeet/Login" target="_blank" class="btn">Go to NEET Admit Card Portal →</a>
+                <a href="https://examinationservices.nic.in/AdmitCardService/AcNeet/Login" target="_blank" rel="noopener" class="btn">Go to NEET Admit Card Portal →</a>
             </div>
 
             <div class="card">
@@ -112,9 +129,10 @@
                 <h2>Step 7 — Photo Attachment</h2>
                 <p>Paste your postcard-size photo onto the proforma page before you go to the exam center.</p>
             </div>
-        
-            <hr>
+        </section>
 
+        <!-- Guide 3: Official Answer Key -->
+        <section id="guide-answer-key" class="guide-section">
             <h1>📑 Official NEET Provisional Answer Key Guide</h1>
             <p class="subtitle">Check your answers and calculate your estimated score right here.</p>
 
@@ -139,9 +157,10 @@
                 <h2>Step 2 — Code Alignment</h2>
                 <p>Open the file and scroll down to the chart matching your exact booklet code.</p>
             </div>
-        
-            <hr>
-            
+        </section>
+
+        <!-- Guide 4: Key Challenge -->
+        <section id="guide-challenge" class="guide-section">
             <h1>⚖️ OMR Response & Answer Key Challenge Guide</h1>
             <p class="subtitle">Step-by-step process to object to a wrong key or a misread OMR bubble.</p>
 
@@ -160,7 +179,7 @@
             <div class="card">
                 <h2>Step 1 — Open Portal Window</h2>
                 <p>Open the link below while the 2-to-3-day NTA challenge window is officially live.</p>
-                <a href="https://neet.nta.nic.in/" target="_blank" class="btn">Go to NTA Challenge Portal →</a>
+                <a href="https://neet.nta.nic.in/" target="_blank" rel="noopener" class="btn">Go to NTA Challenge Portal →</a>
             </div>
 
             <div class="card">
@@ -187,9 +206,10 @@
                 <h2>Step 6 — Submission Payment</h2>
                 <p>Click <strong>"Save your Claim"</strong> and pay the processing fee online to submit.</p>
             </div>
-        
-            <hr>
-            
+        </section>
+
+        <!-- Guide 5: Results & Scorecard -->
+        <section id="guide-results" class="guide-section">
             <h1>🏆 NEET Result & All India Rank Scorecard Guide</h1>
             <p class="subtitle">How to check your final rank, percentile, and save your scorecard.</p>
 
@@ -207,7 +227,7 @@
             <div class="card">
                 <h2>Step 1 — Security Validation</h2>
                 <p>Click the results portal link at the bottom of this section.</p>
-                <a href="https://examinationservices.nic.in/ResultoService26/Ntnt/Login" target="_blank" class="btn">Go to NEET Results Portal →</a>
+                <a href="https://examinationservices.nic.in/ResultoService26/Ntnt/Login" target="_blank" rel="noopener" class="btn">Go to NEET Results Portal →</a>
             </div>
 
             <div class="card">
@@ -234,10 +254,11 @@
                 <h2>Step 6 — Counseling Documentation</h2>
                 <p>Download and print multiple physical copies. You will need them for both MCC All India counseling and your local State Quota counseling rounds.</p>
             </div>
-            
-            <footer>
-                <p>© Official NEET UG Candidate Reference Guides Portal</p>
-            </footer>
-        </div>
-    </body>
+        </section>
+
+        <footer>
+            <p>© Official NEET UG Candidate Reference Guides Portal</p>
+        </footer>
+    </div>
+</body>
 </html>
