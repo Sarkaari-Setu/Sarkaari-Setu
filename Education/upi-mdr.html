@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UPI MDR (Merchant Discount Rate) Comprehensive Guide</title>
+
+        <!-- Connected to existing CSS file -->
+        <link rel="stylesheet" href="../CSS/guide.css">
+    </head>
+    
+    <body>
+        <div class="container">
+            <!-- Back Button -->
+            <a href="../guide.html" class="back-btn">← Back to Guides</a>
+
+            <h1>💳 UPI MDR (Merchant Discount Rate) Fact Sheet & Guide</h1>
+            <p class="subtitle">An exhaustive breakdown of UPI MDR rules, Zero-MDR mandate, PPI charges, RuPay credit card rules, government subsidies, and official policy stances.</p>
+            
+            <!-- Guide Selector Navigation Bar -->
+            <div class="guide-nav">
+                <button class="nav-btn active" data-target="guide-what-is-mdr">💡 What is MDR & Zero-MDR</button>
+                <button class="nav-btn" data-target="guide-ppi-credit-cards">💳 Current Fee Rules (PPI & Cards)</button>
+                <button class="nav-btn" data-target="guide-govt-subsidies">🏛️ Government Stance & Subsidies</button>
+                <button class="nav-btn" data-target="guide-industry-links">📈 Industry Standpoint & Official Links</button>
+            </div>
+
+            <!-- SECTION 1: WHAT IS MDR & THE ZERO-MDR MANDATE -->
+            <div id="guide-what-is-mdr" class="guide-section active">
+                <h1>💡 Understanding MDR & The Zero-MDR Mandate</h1>
+                <p class="subtitle">What Merchant Discount Rate means, how payment systems traditionally earn, and why UPI MDR was abolished in 2020.</p>
+
+                <!-- Definition of MDR -->
+                <div class="card">
+                    <h2>📋 What is Merchant Discount Rate (MDR)?</h2>
+                    <p>Merchant Discount Rate (MDR) is the fee charged to a merchant by payment service providers (banks, payment gateways, card networks) for accepting digital payments from customers.</p>
+                    <div class="tip">
+                        <ul>
+                            <li><strong>How MDR Works:</strong> On a standard card transaction with a 2% MDR, if a customer pays ₹1,000, the merchant receives ₹980 while ₹20 is distributed among the issuing bank, acquiring bank, and payment network (e.g., Visa, Mastercard).</li>
+                            <li><strong>Purpose of MDR:</strong> MDR covers payment processing infrastructure, fraud management, server maintenance, risk mitigation, and operational overheads for financial institutions.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- The 2020 Mandate -->
+                <div class="card">
+                    <h2>🏛️ The January 2020 Zero-MDR Mandate</h2>
+                    <p>To promote digital payments across India, the Ministry of Finance made a historic regulatory change effective <strong>January 1, 2020</strong>, under Section 10A of the Payment and Settlement Systems Act, 2007.</p>
+                    <div class="tip warning">
+                        <ul>
+                            <li><strong>The Core Rule:</strong> MDR was made <strong>0% (Zero MDR)</strong> for all UPI (Unified Payments Interface) transactions and RuPay debit cards.</li>
+                            <li><strong>Merchant Impact:</strong> No merchant in India can legally charge or be charged any MDR fee for accepting UPI payments.</li>
+                            <li><strong>Customer Impact:</strong> Peer-to-Person (P2P) and Person-to-Merchant (P2M) UPI transactions remain 100% free of charge for end consumers.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION 2: CURRENT FEE RULES (PPI & CREDIT CARDS) -->
+            <div id="guide-ppi-credit-cards" class="guide-section">
+                <h1>💳 Current Fee Rules: Bank UPI vs PPI vs Credit Cards</h1>
+                <p class="subtitle">Detailed breakdown of transaction costs across normal bank UPI, prepaid wallets, and RuPay credit cards.</p>
+
+                <!-- Bank-to-Bank UPI -->
+                <div class="card">
+                    <h2>⚡ 1. Standard Bank-to-Bank UPI (P2P & P2M)</h2>
+                    <p>Direct account-to-account bank transfers using UPI apps (PhonePe, Google Pay, Paytm, BHIM, PayZapp, etc.).</p>
+                    <div class="tip">
+                        <ul>
+                            <li><strong>MDR Rate:</strong> <strong>0.0% (Zero MDR)</strong> across all transaction amounts.</li>
+                            <li><strong>P2P (Person to Person):</strong> Completely Free.</li>
+                            <li><strong>P2M (Person to Merchant):</strong> Completely Free for both consumer and merchant.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- PPI on UPI -->
+                <div class="card">
+                    <h2>📱 2. Prepaid Payment Instruments (PPI) on UPI (Wallets & Gift Cards)</h2>
+                    <p>In April 2023, NPCI introduced an interchange framework for transactions where a customer uses a prepaid wallet (e.g., Paytm Wallet, PhonePe Wallet, Amazon Pay Balance) to pay a UPI QR code.</p>
+                    <div class="tip warning">
+                        <ul>
+                            <li><strong>Threshold:</strong> Applicable ONLY to merchant transactions <strong>above ₹2,000</strong>.</li>
+                            <li><strong>Interchange Fee:</strong> Up to <strong>1.1%</strong> (varies between 0.5% to 1.1% depending on merchant category, e.g., fuel, telecom, utilities).</li>
+                            <li><strong>Who Pays?</strong> The interchange fee is paid by the merchant receiving the payment to the wallet issuer. It is <strong>NEVER charged to the customer</strong>.</li>
+                            <li><strong>Exemption:</strong> Normal account-to-account UPI transfers do NOT attract this fee regardless of amount.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- RuPay Credit Card on UPI -->
+                <div class="card">
+                    <h2>💳 3. RuPay Credit Cards Linked to UPI</h2>
+                    <p>Allows users to link their RuPay credit card to UPI apps and pay merchants by scanning UPI QR codes.</p>
+                    <div class="tip">
+                        <ul>
+                            <li><strong>Transactions ≤ ₹2,000:</strong> <strong>Zero MDR</strong> (No merchant fee). Small vendors receive full payment without deduction.</li>
+                            <li><strong>Transactions > ₹2,000:</strong> Standard credit card MDR applies (typically ~1.5% to 2.0%), shared among issuing bank, acquiring app, and NPCI.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION 3: GOVERNMENT STANCE & SUBSIDIES -->
+            <div id="guide-govt-subsidies" class="guide-section">
+                <h1>🏛️ Government Policy, Subsidies & PIB Clarifications</h1>
+                <p class="subtitle">Official clarifications from the Ministry of Finance and Cabinet incentive packages compensating banks.</p>
+
+                <!-- Incentive Scheme -->
+                <div class="card">
+                    <h2>💰 Cabinet Financial Incentive Scheme for Digital Payments</h2>
+                    <p>Because banks and fintech acquirers earn zero MDR from UPI, the Government of India introduced an annual financial support scheme to ensure payment infrastructure remains active and secure.</p>
+                    <div class="tip">
+                        <ul>
+                            <li><strong>Purpose:</strong> Reimbursing acquiring banks and payment service providers for the operational cost of processing low-value UPI P2M transactions and RuPay debit card payments.</li>
+                            <li><strong>Budgetary Allocations:</strong> The Union Cabinet approves financial packages annually (e.g., ₹1,500 Crore to ₹2,600+ Crore depending on the fiscal year target).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Ministry Clarification -->
+                <div class="card">
+                    <h2>📢 Official Ministry of Finance & PIB Clarifications</h2>
+                    <p>Whenever public debate or rumors arise regarding the reintroduction of MDR or transaction charges on UPI, the Ministry of Finance issues official clarifications.</p>
+                    <div class="tip warning">
+                        <ul>
+                            <li><strong>Digital Public Good:</strong> The Ministry of Finance explicitly declared that <em>"UPI is a digital public good with immense convenience for the public and productivity gains for the economy."</em></li>
+                            <li><strong>No Proposal to Charge:</strong> The Government has repeatedly stated through Press Information Bureau (PIB) releases that there is <strong>no consideration or proposal</strong> to levy charges on UPI services.</li>
+                        </ul>
+                    </div>
+                    <a href="https://pib.gov.in/" target="_blank" class="btn">View PIB Press Releases →</a>
+                </div>
+            </div>
+
+            <!-- SECTION 4: INDUSTRY STANDPOINT & OFFICIAL LINKS -->
+            <div id="guide-industry-links" class="guide-section">
+                <h1>📈 Industry Debate & Verified Official Resources</h1>
+                <p class="subtitle">Perspectives from fintech payment aggregators and official portal links for primary documentation.</p>
+
+                <!-- Fintech & Bank Perspective -->
+                <div class="card">
+                    <h2>🏢 The Industry Perspective (Payments Council of India / Fintechs)</h2>
+                    <p>While consumers and small merchants favor Zero-MDR, payment aggregators (e.g., Razorpay, Pine Labs, PhonePe, Paytm) and private banks have routinely expressed structural concerns:</p>
+                    <div class="tip">
+                        <ul>
+                            <li><strong>Infrastructure & Security Costs:</strong> Processing tens of billions of monthly transactions requires continuous investments in cloud servers, cyber-threat prevention, and downtime elimination.</li>
+                            <li><strong>Industry Demand:</strong> Bodies like the Payments Council of India (PCI) and IAMAI have advocated for a capped, nominal MDR (e.g., 0.1% to 0.25%) on large-value commercial UPI transactions to create self-sustaining revenue models.</li>
+                            <li><strong>Current Model:</strong> In lieu of MDR, fintechs rely on cross-selling secondary financial products such as merchant loans, insurance, soundboxes, and POS machines.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Official Portal Links -->
+                <div class="card">
+                    <h2>🔗 Primary Official Links & Sources</h2>
+                    <p>Refer directly to official regulatory and government websites for authentic policy notices and guidelines:</p>
+                    <div class="tip">
+                        <ul>
+                            <li><strong>National Payments Corporation of India (NPCI):</strong> Official circulars on UPI rules, RuPay, and PPI interchange structures.
+                                <br><a href="https://www.npci.org.in/" target="_blank" class="btn">Visit NPCI Portal →</a>
+                            </li>
+                            <li style="margin-top: 15px;"><strong>Reserve Bank of India (RBI):</strong> Payment and Settlement Systems regulations and discussion papers.
+                                <br><a href="https://www.rbi.org.in/" target="_blank" class="btn">Visit RBI Portal →</a>
+                            </li>
+                            <li style="margin-top: 15px;"><strong>Ministry of Finance (Government of India):</strong> Official press releases and digital payment budgetary announcements.
+                                <br><a href="https://finmin.nic.in/" target="_blank" class="btn">Visit Ministry of Finance →</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <p>© Official UPI MDR & Digital Payments Reference Guide</p>
+            </footer>
+        </div>
+
+        <!-- Connected to existing JavaScript file -->
+        <script src="../JS/guide.js"></script>
+    </body>
+</html>
