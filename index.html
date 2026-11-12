@@ -135,23 +135,164 @@
             </button>
         </div>
 
-        <div class="urgent-notification">
-            <div class="notify-for">
-                <span class="urgent-tag">🚨 URGENT</span>
-                <div class="notification-text">
-                    <strong>CLAT 2027 IS VERY CLOSE /strong>CLAT 2027 Clat 2027 is in December. To prepare fast check our guides and 10 years+ PYQs
-                </div>
-            </div>
-            <a href="Education/clat.html" target="_blank" class="check-btn">
-                CLAT guides with PYQs
-            </a>
-            <a href="https://consortiumofnlus.ac.in" target="_blank" class="check-btn">
-                Consortium of NLUs official Website
-            </a>
-            <a href="splus.html" target="_blank" class="check-btn">
-                Visit our AI for help
-            </a>
+       
+<div class="urgent-notification">
+
+    <!-- FIRE BACKGROUND -->
+    <div class="fire-layer">
+        <svg viewBox="0 0 700 150"
+             preserveAspectRatio="none"
+             xmlns="http://www.w3.org/2000/svg">
+
+            <defs>
+                <linearGradient id="outerFire" x1="0" y1="1" x2="0" y2="0">
+                    <stop offset="0%" stop-color="#b51b00"/>
+                    <stop offset="40%" stop-color="#ff4500"/>
+                    <stop offset="75%" stop-color="#ff9000"/>
+                    <stop offset="100%" stop-color="#ffd36a" stop-opacity="0.1"/>
+                </linearGradient>
+
+                <linearGradient id="innerFire" x1="0" y1="1" x2="0" y2="0">
+                    <stop offset="0%" stop-color="#ff4500"/>
+                    <stop offset="60%" stop-color="#ffae00"/>
+                    <stop offset="100%" stop-color="#fff2a0" stop-opacity="0.1"/>
+                </linearGradient>
+
+                <filter id="fireBlur">
+                    <feGaussianBlur stdDeviation="8"/>
+                </filter>
+            </defs>
+
+            <!-- FIRE GLOW -->
+            <path d="M0 150 Q100 40 180 140 Q280 20 350 140 Q470 30 550 140 Q630 50 700 150 Z"
+                  fill="#ff4500"
+                  opacity=".5"
+                  filter="url(#fireBlur)"/>
+
+            <!-- OUTER FLAMES -->
+            <path class="fire-wave"
+                  fill="url(#outerFire)"
+                  d="M0 150 Q25 90 55 120 Q75 35 100 115
+                  Q130 55 155 125 Q190 15 220 120
+                  Q255 65 280 130 Q315 10 350 120
+                  Q380 65 410 130 Q445 15 480 120
+                  Q520 55 545 130 Q575 20 610 120
+                  Q650 60 700 150 Z"/>
+
+            <!-- INNER FLAMES -->
+            <path class="fire-wave second"
+                  fill="url(#innerFire)"
+                  d="M0 150 Q60 100 100 145
+                  Q145 65 180 140 Q230 90 270 145
+                  Q310 55 350 140 Q400 85 440 145
+                  Q490 55 530 140 Q580 85 620 145
+                  Q660 95 700 150 Z"/>
+        </svg>
+    </div>
+
+    <!-- NOTIFICATION CONTENT -->
+    <div class="notify-for">
+
+        <span class="urgent-tag">
+            🚨 URGENT
+        </span>
+
+        <div class="notification-text">
+            <strong>CLAT 2027 IS VERY CLOSE</strong>
+            <p>
+                CLAT 2027 is in December. To prepare fast,
+                check our guides and 10 years+ PYQs.
+            </p>
         </div>
+
+    </div>
+
+    <!-- ACTION BUTTONS -->
+    <div class="urgent-actions">
+
+        <a href="Education/clat.html"
+           target="_blank"
+           class="check-btn">
+            CLAT Guides with PYQs
+        </a>
+
+        <a href="https://consortiumofnlus.ac.in"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="check-btn">
+            Consortium of NLUs Official Website
+        </a>
+
+        <a href="splus.html"
+           target="_blank"
+           class="check-btn">
+            Visit Our AI for Help
+        </a>
+
+    </div>
+
+    <!-- MINI FIREPLACE -->
+    <div class="mini-fireplace">
+
+        <svg viewBox="0 0 120 130"
+             xmlns="http://www.w3.org/2000/svg">
+
+            <defs>
+                <linearGradient id="brickGradient" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#84351c"/>
+                    <stop offset="100%" stop-color="#35130e"/>
+                </linearGradient>
+
+                <linearGradient id="miniFlame" x1="0" y1="1" x2="0" y2="0">
+                    <stop offset="0%" stop-color="#ff2600"/>
+                    <stop offset="55%" stop-color="#ff7900"/>
+                    <stop offset="100%" stop-color="#ffe28a"/>
+                </linearGradient>
+            </defs>
+
+            <!-- CHIMNEY -->
+            <path d="M35 48 V10 H85 V48"
+                  fill="url(#brickGradient)"
+                  stroke="#a94a23" stroke-width="3"/>
+
+            <path d="M30 10 H90 V20 H30 Z"
+                  fill="#592317"
+                  stroke="#bd5427" stroke-width="2"/>
+
+            <!-- FIREPLACE -->
+            <path d="M15 48 H105 V112 H15 Z"
+                  fill="url(#brickGradient)"
+                  stroke="#c05a2b" stroke-width="3"/>
+
+            <!-- BRICKS -->
+            <path d="M15 65 H105 M15 85 H105 M40 48 V65 M80 48 V65 M55 65 V85"
+                  stroke="#d06a37" stroke-width="2" fill="none"/>
+
+            <!-- FIRE OPENING -->
+            <path d="M31 105 V76 Q60 55 89 76 V105 Z"
+                  fill="#160b08"
+                  stroke="#e87529" stroke-width="3"/>
+
+            <!-- FLAMES -->
+            <path class="fireplace-flame"
+                  d="M38 103 Q29 82 48 68 Q45 85 57 82 Q62 61 72 69 Q90 87 82 103 Z"
+                  fill="url(#miniFlame)"/>
+
+            <path class="fireplace-inner"
+                  d="M49 103 Q43 88 59 80 Q57 93 68 88 Q74 83 72 103 Z"
+                  fill="#ffe58a"/>
+
+            <!-- LOG -->
+            <path d="M43 103 L76 103"
+                  stroke="#633019"
+                  stroke-width="6"
+                  stroke-linecap="round"/>
+
+        </svg>
+    </div>
+
+</div>
+
 
         <div class="container">
         
